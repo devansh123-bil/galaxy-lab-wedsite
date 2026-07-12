@@ -1,0 +1,21 @@
+{
+  "name": "mystore-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "framer-motion": "^12.4.7",
+    "lucide-react": "^0.475.0",
+    "mystorewebsite": "file:..",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
+    "vite": "^6.1.0"
+  }
+}
